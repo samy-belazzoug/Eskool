@@ -5,9 +5,6 @@
 -affiche en sortie, si OUI ou NON la (sous-)chaîne appartient à la phrase initiale.
 """
 
-def souschaine(chaine:str)->bool:
-    phrase = "Une phrase s'il vous plait"
-    return chaine in phrase
-
-print(souschaine("phrase"))
-print(souschaine("vousplait"))
+phrase = "Une phrase s'il vous plait"
+souschaine = str(input("Entrez une sous-chaine : "))
+print(souschaine in phrase)

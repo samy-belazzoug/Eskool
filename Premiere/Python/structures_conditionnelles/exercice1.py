@@ -4,14 +4,10 @@
 -Si x>0, Alors afficher "Strictement Positif"
 """
 
-def signe(x:float):
-    if x < 0:
-        return "Strictement Négatif"
-    elif x == 0:
-        return "Nul"
-    else:
-        return "Strictement positif"
-
-print(signe(-1))
-print(signe(0))
-print(signe(3))
+x = float(input("Entrez un nombre flottant : "))
+if x < 0:
+    print("Strictement Négatif")
+elif x == 0:
+    print("Nul")
+else:
+    print("Strictement positif")
