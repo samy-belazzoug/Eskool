@@ -38,8 +38,6 @@ def diviseurs(n:int)->list:
     diviseurs.append(n)
     return diviseurs
 
-print(diviseurs(169))
-
 #4 
 
 def sigma(n):
