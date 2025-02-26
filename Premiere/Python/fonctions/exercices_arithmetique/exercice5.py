@@ -12,6 +12,8 @@ from exercice3 import sigma
 def parfait(n:int)->bool:
     return sigma(n) == 2*n
 
+#2
+
 def parfaits(x:int)->list:
     l = []
     i = 1
